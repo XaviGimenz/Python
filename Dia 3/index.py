@@ -40,3 +40,5 @@ print(frase)
 
 print("nubes" in frase)
 print("agua" not in frase)
+
+print(len(frase))
