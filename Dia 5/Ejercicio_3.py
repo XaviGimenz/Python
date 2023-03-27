@@ -1,5 +1,16 @@
-def repetidos():
-
+def repetidos(numero):
+    seleccionado = 2
+    contador = 0
+    repetido = False
+    for n in numero:
+        seleccionado = n
+        if seleccionado == 0:
+            contador = contador + 1
+        elif seleccionado != 0:
+            contador = 0
+    if contador >= 2:
+        repetido = True
+    print(f"{numero} es tu lista y repetidos es: {repetido}")
 
 numero = []
 intento = 0
@@ -18,5 +29,5 @@ while intento == 0:
         elif variableTemp != 's':
             intento = 1
 
-
+repetidos(numero)
 
