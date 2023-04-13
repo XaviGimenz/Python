@@ -13,3 +13,4 @@ else:
 
 ruta_windows = PureWindowsPath(carpeta)
 print(ruta_windows)
+print('hola')
