@@ -41,5 +41,4 @@ def minusculas(tecto):
     print(tecto.lower())
 
 mayuscula_decorada = decorar_saludo(mayusculas)
-mayusculas('Fede')
 mayuscula_decorada('fere')
