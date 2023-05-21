@@ -143,7 +143,6 @@ while se_ejecuta:
             texto_final()
             break
 
-
         enemigo_x[e] += enemigo_x_cambio[e]
 
         # mantener dentro de bordesal enemigo
